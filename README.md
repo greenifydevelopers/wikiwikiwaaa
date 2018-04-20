@@ -5,11 +5,9 @@
 [![Join the chat at https://gitter.im/gitterHQ/gitterHQ.github.io](https://badges.gitter.im/gitterHQ/gitterHQ.github.io.svg)](https://gitter.im/wiki/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
 ## About
-As I wanted a wiki that just uses plain markdown files as backend, that is easy
-to use and that is written in python, to enable me to easily hack around,
-but found nothing, I just wrote this down. I hope that it might help others ,too.
+This is an update of Dr. Cho's Wiki system for CSC 440 at NKU. It adds the ability to add a user, to convert a page to Open Document Text format, to email a page as a PDF, and to export the full Wiki as a PDF.
 
-## Features
+## Original Features
 
 * Markdown Syntax Editing
 * Tags
@@ -31,21 +29,6 @@ but found nothing, I just wrote this down. I hope that it might help others ,too
 * Settings via the webinterface
 * Python2 & 3 compatibility.
 
-
-## Setup
-You can install wiki using:
-
-	pip install wiki2
-
-
-Afterwards you can create or change into your content directory and create a `config.py` file in it, that contains at least the following:
-
-	# encoding: <your encoding (probably utf-8)
-	SECRET_KEY='a unique and long key'
-	TITLE='Wiki' # Title Optional
-
-## Usage
-Afterwards you can just run `wiki web` in your content directory to start the server.
 
 ## Development
 If you plan on helping with the development of this project you can clone the repository, open the newly created directory in a terminal and run `pip install -e .`, after which both the tests and the wiki cli will be available to you.

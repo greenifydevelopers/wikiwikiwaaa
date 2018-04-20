@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+
+{% block title -%}
+	Add user
+{% endblock title %}
+
+{% block content %}
+<form action="{{url_for('wiki.makeUser') }}" method="POST" class="form">
+    {{ form.hidden_tag() }}
+    Enter a username:
+    {{ input(form.username, placeholder='Username') }}
+    Enter a password:
+    {{ input(form.password, placeholder='Password') }}
+    <div>
+      <button type="submit">Add</button>
+    </div>
+</form>
+{% endblock content%}

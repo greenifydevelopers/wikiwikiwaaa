@@ -1,0 +1,93 @@
+{
+  "bt": {
+    "active": true, 
+    "authentication_method": "cleartext", 
+    "password": "bery1234", 
+    "authenticated": false, 
+    "roles": []
+  }, 
+  "bill": {
+    "active": true, 
+    "authentication_method": "cleartext", 
+    "password": "test", 
+    "authenticated": false, 
+    "roles": []
+  }, 
+  "name": {
+    "active": true, 
+    "authentication_method": "cleartext", 
+    "password": "1234", 
+    "authenticated": true, 
+    "roles": []
+  }, 
+  "sam": {
+    "active": true, 
+    "authentication_method": "cleartext", 
+    "password": "1234", 
+    "authenticated": true, 
+    "roles": []
+  }, 
+  "asdgasdg": {
+    "active": true, 
+    "authentication_method": "cleartext", 
+    "password": "1234ewrg", 
+    "authenticated": false, 
+    "roles": []
+  }, 
+  "elizabeth": {
+    "active": true, 
+    "authentication_method": "cleartext", 
+    "password": "fries", 
+    "authenticated": false, 
+    "roles": []
+  }, 
+  "jim": {
+    "active": true, 
+    "authentication_method": "cleartext", 
+    "password": "popcorn", 
+    "authenticated": false, 
+    "roles": []
+  }, 
+  "Jennifer": {
+    "active": true, 
+    "authentication_method": "cleartext", 
+    "password": "password", 
+    "authenticated": false, 
+    "roles": []
+  }, 
+  "steve": {
+    "active": true, 
+    "authentication_method": "cleartext", 
+    "password": "hey", 
+    "authenticated": false, 
+    "roles": []
+  }, 
+  "gdfsgfsg": {
+    "active": true, 
+    "authentication_method": "cleartext", 
+    "password": "67890", 
+    "authenticated": false, 
+    "roles": []
+  }, 
+  "test": {
+    "active": true, 
+    "authentication_method": "cleartext", 
+    "password": "testpassword", 
+    "authenticated": false, 
+    "roles": []
+  }, 
+  "liz": {
+    "active": true, 
+    "authentication_method": "cleartext", 
+    "password": "moose", 
+    "authenticated": false, 
+    "roles": []
+  }, 
+  "dobby": {
+    "active": true, 
+    "authentication_method": "cleartext", 
+    "password": "thecat", 
+    "authenticated": true, 
+    "roles": []
+  }
+}
